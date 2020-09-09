@@ -1,0 +1,12 @@
+.header {
+  background-color: blue;
+
+  &__title {
+    font-size: 48px;
+    color: white;
+  }
+
+  &__describe {
+    color: white;
+  }
+}
