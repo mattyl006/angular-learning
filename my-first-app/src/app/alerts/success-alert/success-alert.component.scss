@@ -1,0 +1,12 @@
+.success-alert {
+  margin-bottom: 48px;
+  &__title {
+    text-align: center;
+  }
+  &__describe {
+    text-align: center;
+  }
+  &__image {
+    max-width: 512px;
+  }
+}
