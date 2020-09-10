@@ -1,12 +1,17 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .header {
-  background-color: blue;
+  margin: 32px 16px 64px;
 
   &__title {
-    font-size: 48px;
-    color: white;
+    text-align: center;
   }
-
   &__describe {
-    color: white;
+    text-align: center;
   }
 }
