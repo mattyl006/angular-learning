@@ -1,3 +1,9 @@
+<label for="server-control">Server Name</label>
+<input
+  id="server-control"
+  name="server-control"
+  type="text"
+  (input)="onUpdateServerName($event)">
 <button class="server-button" [disabled] = "!allowNewServer" (click)="onCreateServer()">
   Add Server
 </button>
