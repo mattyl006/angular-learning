@@ -5,7 +5,7 @@
     id="servers-control"
     name="servers-control"
     type="text"
-    (input)="onUpdateServerName($event)">
+    [(ngModel)]="serverName">
   <p class="servers__paragraph">{{ serverName }}</p>
   <button class="servers__button" [disabled] = "!allowNewServer" (click)="onCreateServer()">
     Add Server
