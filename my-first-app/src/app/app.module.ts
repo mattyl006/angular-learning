@@ -7,6 +7,7 @@ import { SuccessAlertComponent } from './alerts/success-alert/success-alert.comp
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import {FormsModule} from '@angular/forms';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {FormsModule} from '@angular/forms';
     WarningAlertComponent,
     SuccessAlertComponent,
     ServerComponent,
-    ServersComponent
+    ServersComponent,
+    UserComponent
   ],
     imports: [
         BrowserModule,

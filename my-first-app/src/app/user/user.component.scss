@@ -1,21 +1,17 @@
-.servers {
+.user {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 64px;
 
-  &__input {
-    margin-bottom: 16px;
-  }
-
   &__label {
     font-weight: bold;
     margin-bottom: 16px;
   }
 
-  &__button {
-    background-color: #4aa1ff;
+  &__reset {
+    background-color: #1f8323;
     width: 190px;
     height: 32px;
     border-radius: 6px;

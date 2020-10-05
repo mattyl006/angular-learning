@@ -1,0 +1,6 @@
+<section class="user">
+  <label class="user__label" for="username">Username:</label>
+  <input class="user__input" id="username" name="username" type="text" [(ngModel)]="username">
+  <p class="user__output">{{ username }}</p>
+  <button class="user__reset" [disabled]="username === ''" (click)="resetUsername()">Reset username</button>
+</section>
