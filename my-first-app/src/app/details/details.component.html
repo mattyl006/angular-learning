@@ -1,0 +1,11 @@
+<section class="details">
+  <h2 class="details__header">Self work exercise 3</h2>
+  <button class="details__button" (click)="toggleDetails()">Toggle details</button>
+  <p class="details__secret" *ngIf="detailsShow">Secret password = "okoń"</p>
+  <ul class="details__list">
+    <li class="details__log"
+        *ngFor="let l of log"
+        [ngStyle]="{backgroundColor: l >= 5 ? 'blue' : 'transparent'}"
+        [ngClass]="{'white-text' : l >= 5}">click {{ l }}</li>
+  </ul>
+</section>
