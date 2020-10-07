@@ -4,8 +4,8 @@
   <p class="details__secret" *ngIf="detailsShow">Secret password = "okoń"</p>
   <ul class="details__list">
     <li class="details__log"
-        *ngFor="let l of log"
-        [ngStyle]="{backgroundColor: l >= 5 ? 'blue' : 'transparent'}"
-        [ngClass]="{'white-text' : l >= 5}">click {{ l }}</li>
+        *ngFor="let l of log; let i = index"
+        [ngStyle]="{backgroundColor: i >= 4 ? 'blue' : 'transparent'}"
+        [ngClass]="{'white-text' : i >= 4}">{{ l }}</li>
   </ul>
 </section>

@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class DetailsComponent implements OnInit {
 
   detailsShow: boolean = false;
-  log: number[] = [];
+  log: any[] = [];
 
   constructor() { }
 
@@ -17,6 +17,6 @@ export class DetailsComponent implements OnInit {
 
   toggleDetails(): void {
     this.detailsShow = !this.detailsShow;
-    this.log.push(this.log.length + 1);
+    this.log.push(new Date());
   }
 }
