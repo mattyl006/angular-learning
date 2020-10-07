@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./server.component.scss']
 })
 export class ServerComponent {
-  serverId: number = 10;
+  serverId: number =  Math.round(Math.random() * 100);
   serverStatus: string = 'offline';
 
   constructor() {
